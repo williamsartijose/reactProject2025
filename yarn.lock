@@ -455,7 +455,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:9.38.0, @eslint/js@npm:^9.36.0":
+"@eslint/js@npm:9.38.0, @eslint/js@npm:^9.38.0":
   version: 9.38.0
   resolution: "@eslint/js@npm:9.38.0"
   checksum: 10c0/b4a0d561ab93f0b1bc6a3f5e3f83764c9cccade59f2c54f1d718c1dcc71ac4d1be97bef7300cca641932d72e7555c79a7bf07e4e4ce1d0a1ddccc84d6440d2a6
@@ -876,7 +876,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:8.46.2":
+"@typescript-eslint/eslint-plugin@npm:8.46.2, @typescript-eslint/eslint-plugin@npm:^8.46.2":
   version: 8.46.2
   resolution: "@typescript-eslint/eslint-plugin@npm:8.46.2"
   dependencies:
@@ -897,7 +897,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:8.46.2":
+"@typescript-eslint/parser@npm:8.46.2, @typescript-eslint/parser@npm:^8.46.2":
   version: 8.46.2
   resolution: "@typescript-eslint/parser@npm:8.46.2"
   dependencies:
@@ -1291,12 +1291,14 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "dscommerce@workspace:."
   dependencies:
-    "@eslint/js": "npm:^9.36.0"
+    "@eslint/js": "npm:^9.38.0"
     "@types/node": "npm:^24.6.0"
     "@types/react": "npm:^19.1.16"
     "@types/react-dom": "npm:^19.1.9"
+    "@typescript-eslint/eslint-plugin": "npm:^8.46.2"
+    "@typescript-eslint/parser": "npm:^8.46.2"
     "@vitejs/plugin-react": "npm:^5.0.4"
-    eslint: "npm:^9.36.0"
+    eslint: "npm:^9.38.0"
     eslint-plugin-react-hooks: "npm:^5.2.0"
     eslint-plugin-react-refresh: "npm:^0.4.22"
     globals: "npm:^16.4.0"
@@ -1504,7 +1506,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:^9.36.0":
+"eslint@npm:^9.38.0":
   version: 9.38.0
   resolution: "eslint@npm:9.38.0"
   dependencies:
