@@ -1,4 +1,5 @@
 
+import './styles.css'
 import CartIcon from '../../assets/cart.svg';
 
 
